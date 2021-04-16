@@ -9,7 +9,7 @@ you often have build failure,
 so you can not use your code or product anymore, until you update external dependencies,
 and then modify your code to support changes on external dependencies.
 When you use many external dependencies of independent developers (as buildroot does),
-it may take all your live to only support changes on external dependencies
+it may take all your life to only support changes on external dependencies
 in your project (like in buildroot), or you must have 5-50 paid programmers and admins,
 which will do this task for you.
 
