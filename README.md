@@ -20,7 +20,7 @@ subset of features and settings in your embedded project.
 
 Or you may want to patch or modify part of programs and libraries
 in buildroot dependencies by yourself. It is big difference between
-small modifications by youself (you team)
+small modifications by youself (your team)
 and following big default changes by 100-1000+ independent developers.
 
 How to use buildroot-dl-mini offline
@@ -47,7 +47,7 @@ How to prepair your custom buildroot-dl-mini (online needed)
 4. Restore your configs to buildroot (or you may use configs from buildroot-dl-mini).
 5. Select all disabled Toolchain options (you must do it manually), e.g. by `make menuconfig`
 6. To select all Packages you may run `make allyespackageconfig` (mismatched with `make allpackageyesconfig`). This step is not recommended, only if you are advanced buildroot user and understand.
-7. **Do not wait for full build finish, break manually after 1 minute by Ctrl+C.**
+7. Try build start by `make` **Do not wait for full build finish, break manually after 1 minute by Ctrl+C.**
 8. Deselect unwanted Toolchain options (e.g. C++ support, Fortran support, OpenMP support) on `make menuconfig`.
 9. Deselect unwanted Target Packages (e.g. mail/mutt, net/dnsmasq, net/lynx, editors/uemacs, viewers/mc, fs/udftools).
 10. Deselect unwanted Bootloaders, Kernels, Host utilities, Filesystem images (leave only your prefered).
